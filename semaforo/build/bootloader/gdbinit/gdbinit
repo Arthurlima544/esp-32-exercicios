@@ -1,0 +1,2 @@
+source /Users/arthur/development/projects/fse/esp-32/semaforo/build/bootloader/gdbinit/symbols
+source /Users/arthur/development/projects/fse/esp-32/semaforo/build/bootloader/gdbinit/connect
