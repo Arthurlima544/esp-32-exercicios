@@ -1,0 +1,140 @@
+
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.0[0m
+[0;32mI (36) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (40) boot.espng RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (54) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 000060�ets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jun 26 2025 20:25:40[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.0[0m
+[0;32mI (36) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (40) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (47) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (54) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (80) boot: End of partition table[0m
+[0;32mI (83) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a6b4h ( 42676) map[0m
+[0;32mI (105) esp_image: segment 1: paddr=0001a6dc vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (105) esp_image: segment 2: paddr=0001a700 vaddr=3ffb0000 size=0236ch (  9068) load[0m
+[0;32mI (112) esp_image: segment 3: paddr=0001ca74 vaddr=40080000 size=035a4h ( 13732) load[0m
+[0;32mI (122) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=1545ch ( 87132) map[0m
+[0;32mI (154) esp_image: segment 5: paddr=00035484 vaddr=400835a4 size=098b4h ( 39092) load[0m
+[0;32mI (175) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (175) boot: Disabling RNG early entropy source...[0m
+[0;32mI (186) cpu_start: Multicore app[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) app_init: Application information:[0m
+[0;32mI (194) app_init: Project name:     led-botao[0m
+[0;32mI (198) app_init: App version:      32d6a25[0m
+[0;32mI (202) app_init: Compile time:     Jun 26 2025 20:16:18[0m
+[0;32mI (207) app_init: ELF file SHA256:  8cfc6823f...[0m
+[0;32mI (212) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (216) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (220) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (224) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (228) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (234) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (239) heap_init: At 3FFB2C88 len 0002D378 (180 KiB): DRAM[0m
+[0;32mI (244) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (250) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (255) heap_init: At 4008CE58 len 000131A8 (76 KiB): IRAM[0m
+[0;32mI (262) spi_flash: detected chip: generic[0m
+[0;32mI (264) spi_flash: flash io: dio[0m
+[0;33mW (267) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (280) main_task: Started on CPU0[0m
+[0;32mI (290) main_task: Calling app_main()[0m
+[1;31mE (290) LED: Apagando LED | PWM: -1[0m
+[1;31mE (340) LED: Apagando LED | PWM: -1[0m
+[1;31mE (390) LED: Apagando LED | PWM: -1[0m
+[1;31mE (440) LED: Apagando LED | PWM: -1[0m
+[1;31mE (490) LED: Apagando LED | PWM: -1[0m
+[1;31mE (540) LED: Apagando LED | PWM: -1[0m
+[1;31mE (590) LED: Apagando LED | PWM: -1[0m
+[1;31mE (640) LED: Apagando LED | PWM: -1[0m
+[1;31mE (690) LED: Apagando LED | PWM: -1[0m
+[1;31mE (740) LED: Apagando LED | PWM: -1[0m
+[1;31mE (790) LED: Apagando LED | PWM: -1[0m
+[1;31mE (840) LED: Apagando LED | PWM: -1[0m
+[1;31mE (890) LED: Apagando LED | PWM: -1[0m
+[1;31mE (940) LED: Apagando LED | PWM: -1[0m
+[1;31mE (990) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1040) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1090) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1140) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1190) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1240) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1290) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1340) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1390) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1440) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1490) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1540) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1590) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1640) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1690) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1740) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1790) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1840) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1890) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1940) LED: Apagando LED | PWM: -1[0m
+[1;31mE (1990) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2040) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2090) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2140) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2190) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2240) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2290) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2340) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2390) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2440) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2490) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2540) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2590) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2640) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2690) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2740) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2790) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2840) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2890) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2940) LED: Apagando LED | PWM: -1[0m
+[1;31mE (2990) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3040) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3090) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3140) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3190) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3240) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3290) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3340) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3390) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3440) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3490) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3540) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3590) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3640) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3690) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3740) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3790) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3840) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3890) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3940) LED: Apagando LED | PWM: -1[0m
+[1;31mE (3990) LED: Apagando LED | PWM: -1[0m
+[1;31mE (4040) LED: Apagando LED | PWM: -1[0m
