@@ -1,0 +1,122 @@
+boot: Multicore bootloader
+[0;32mI (33) boot: chip revision: v3.0[0m
+I  DIO
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (47) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (54) boot: ## Label            Usage          Type ST Offset   Length[0m
+I (60�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jun 27 2025 17:22:24[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.0[0m
+[0;32mI (36) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (40) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (47) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (54) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (80) boot: End of partition table[0m
+[0;32mI (83) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a22ch ( 41516) map[0m
+[0;32mI (105) esp_image: segment 1: paddr=0001a254 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (105) esp_image: segment 2: paddr=0001a278 vaddr=3ffb0000 size=02324h (  8996) load[0m
+[0;32mI (112) esp_image: segment 3: paddr=0001c5a4 vaddr=40080000 size=03a74h ( 14964) load[0m
+[0;32mI (122) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=14528h ( 83240) map[0m
+[0;32mI (152) esp_image: segment 5: paddr=00034550 vaddr=40083a74 size=0a39ch ( 41884) load[0m
+[0;32mI (175) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (175) boot: Disabling RNG early entropy source...[0m
+[0;32mI (186) cpu_start: Multicore app[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) app_init: Application information:[0m
+[0;32mI (194) app_init: Project name:     low-power[0m
+[0;32mI (198) app_init: App version:      6fe1406-dirty[0m
+[0;32mI (203) app_init: Compile time:     Jun 27 2025 17:21:33[0m
+[0;32mI (208) app_init: ELF file SHA256:  4d93e9cb1...[0m
+[0;32mI (212) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (216) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (220) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (224) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (228) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (234) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (239) heap_init: At 3FFB2C10 len 0002D3F0 (180 KiB): DRAM[0m
+[0;32mI (245) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (250) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (256) heap_init: At 4008DE10 len 000121F0 (72 KiB): IRAM[0m
+[0;32mI (262) spi_flash: detected chip: generic[0m
+[0;32mI (264) spi_flash: flash io: dio[0m
+[0;33mW (267) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (280) main_task: Started on CPU0[0m
+[0;32mI (290) main_task: Calling app_main()[0m
+Entrando em modo Light Sleep
+Dormiu por 5000 ms
+O [TIMER] me acordou !
+Entrando em modo Light Sleep
+Dormiu por 5000 ms
+O [TIMER] me acordou !
+Entrando em modo Light Sleep
+Dormiu por 1235 ms
+O [BOTÃO] me acordou !
+Aguardando soltar o botão ... 
+Entrando em modo Light Sleep
+Dormiu por 501 ms
+O [BOTÃO] me acordou !
+Aguardando soltar o botão ... 
+Entrando em modo Light Sleep
+Dormiu por 181 ms
+O [BOTÃO] me acordou !
+Aguardando soltar o botão ... 
+Entrando em modo Light Sleep
+Dormiu por 220 ms
+O [BOTÃO] me acordou !
+Aguardando soltar o botão ... 
+Entrando em modo Light Sleep
+Dormiu por 354 ms
+O [BOTÃO] me acordou !
+Aguardando soltar o botão ... 
+Entrando em modo Light Sleep
+Dormiu por 51 ms
+O [BOTÃO] me acordou !
+Aguardando soltar o botão ... 
+Entrando em modo Light Sleep
+Dormiu por 133 ms
+O [BOTÃO] me acordou !
+Aguardando soltar o botão ... 
+Entrando em modo Light Sleep
+Dormiu por 110 ms
+O [BOTÃO] me acordou !
+Aguardando soltar o botão ... 
+Entrando em modo Light Sleep
+Dormiu por 107 ms
+O [BOTÃO] me acordou !
+Aguardando soltar o botão ... 
+Entrando em modo Light Sleep
+Dormiu por 118 ms
+O [BOTÃO] me acordou !
+Aguardando soltar o botão ... 
+Entrando em modo Light Sleep
+Dormiu por 5000 ms
+O [TIMER] me acordou !
+Entrando em modo Light Sleep
+Dormiu por 907 ms
+O [BOTÃO] me acordou !
+Aguardando soltar o botão ... 
+Entrando em modo Light Sleep
+Dormiu por 409 ms
+O [BOTÃO] me acordou !
+Aguardando soltar o botão ... 
+Entrando em modo Light Sleep

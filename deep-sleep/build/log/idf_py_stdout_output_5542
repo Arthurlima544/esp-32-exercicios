@@ -1,0 +1,88 @@
+[1/997] Generating project_elf_src_esp32.c
+[2/997] Generating /Users/arthur/development/projects/fse/esp-32/low-power/build/esp-idf/esp_system/ld/memory.ld linker script...
+[3/997] Generating /Users/arthur/development/projects/fse/esp-32/low-power/build/esp-idf/esp_system/ld/sections.ld.in linker script...
+[4/997] Generating ../../partition_table/partition-table.bin
+Partition table binary generated. Contents:
+*******************************************************************************
+# ESP-IDF Partition Table
+# Name, Type, SubType, Offset, Size, Flags
+nvs,data,nvs,0x9000,24K,
+phy_init,data,phy,0xf000,4K,
+factory,app,factory,0x10000,1M,
+*******************************************************************************
+[5/997] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.c.obj
+[6/997] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_ws.c.obj
+[7/997] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_uri.c.obj
+[8/997] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj
+[9/997] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj
+[10/997] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
+[11/997] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_sess.c.obj
+[12/997] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_main.c.obj
+[13/997] Building C object esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/src/esp_https_ota.c.obj
+[14/997] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_txrx.c.obj
+[15/997] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_parse.c.obj
+[16/997] Linking C static library esp-idf/esp_https_ota/libesp_https_ota.a
+[17/997] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj
+[18/997] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj
+[19/997] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.obj
+[20/997] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj
+[21/997] Linking C static library esp-idf/esp_http_server/libesp_http_server.a
+[22/997] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_socks_proxy.c.obj
+[23/997] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj
+[24/997] Building ASM object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/xt_debugexception.S.obj
+[25/997] Building ASM object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub-entry.S.obj
+[26/997] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub_xtensa.c.obj
+[27/997] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali_curve_fitting.c.obj
+[28/997] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.obj
+[29/997] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp_adc_cal_common_legacy.c.obj
+[30/997] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.obj
+[31/997] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.obj
+[32/997] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj
+[33/997] Linking C static library esp-idf/esp_http_client/libesp_http_client.a
+[34/997] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.obj
+[35/997] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj
+[36/997] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp-tls-crypto/esp_tls_crypto.c.obj
+[37/997] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_platform_port.c.obj
+[38/997] Linking C static library esp-idf/tcp_transport/libtcp_transport.a
+[39/997] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_cali_line_fitting.c.obj
+[40/997] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp32/esp_adc_cal_legacy.c.obj
+[41/997] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/lib_printf.c.obj
+[42/997] Linking C static library esp-idf/esp_gdbstub/libesp_gdbstub.a
+[43/997] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_dma.c.obj
+[44/997] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_continuous.c.obj
+[45/997] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_error_capture.c.obj
+[46/997] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/mesh_event.c.obj
+[47/997] Linking C static library esp-idf/esp_adc/libesp_adc.a
+[48/997] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig.c.obj
+[49/997] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default_ap.c.obj
+[50/997] Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj
+[51/997] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_netif.c.obj
+[52/997] Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj
+[53/997] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.obj
+[54/997] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default.c.obj
+[55/997] Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32/esp_coex_adapter.c.obj
+[56/997] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/os_xtensa.c.obj
+[57/997] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig_ack.c.obj
+[58/997] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32/esp_adapter.c.obj
+[59/997] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_mbedtls.c.obj
+[60/997] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls.c.obj
+[61/997] Linking C static library esp-idf/esp-tls/libesp-tls.a
+[62/997] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ap_config.c.obj
+[63/997] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/sta_info.c.obj
+[64/997] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_1x.c.obj
+[65/997] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj
+FAILED: esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj 
+/Users/arthur/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DCONFIG_CRYPTO_MBEDTLS -DCONFIG_ECC -DCONFIG_FAST_PBKDF2 -DCONFIG_GMAC -DCONFIG_IEEE80211W -DCONFIG_NO_RADIUS -DCONFIG_OWE_STA -DCONFIG_SAE -DCONFIG_SAE_PK -DCONFIG_SHA256 -DCONFIG_WPA3_SAE -DCONFIG_WPS -DEAP_MSCHAPv2 -DEAP_PEAP -DEAP_PEER_METHOD -DEAP_TLS -DEAP_TTLS -DESPRESSIF_USE -DESP_PLATFORM -DESP_SUPPLICANT -DIDF_VER=\"v5.4.1-dirty\" -DIEEE8021X_EAPOL -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -DUSE_WPA2_TASK -DUSE_WPS_TASK -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -D__ets__ -I/Users/arthur/development/projects/fse/esp-32/low-power/build/config -I/Users/arthur/esp/v5.4.1/esp-idf/components/wpa_supplicant/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/wpa_supplicant/port/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/wpa_supplicant/src -I/Users/arthur/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/utils -I/Users/arthur/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src -I/Users/arthur/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_wifi/wifi_apps/roaming_app/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/newlib/platform_include -I/Users/arthur/esp/v5.4.1/esp-idf/components/freertos/config/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/freertos/config/include/freertos -I/Users/arthur/esp/v5.4.1/esp-idf/components/freertos/config/xtensa/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -I/Users/arthur/esp/v5.4.1/esp-idf/components/freertos/esp_additions/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_hw_support/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_hw_support/include/soc -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_hw_support/include/soc/esp32 -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_hw_support/dma/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_hw_support/ldo/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_hw_support/debug_probe/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32/. -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/heap/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/heap/tlsf -I/Users/arthur/esp/v5.4.1/esp-idf/components/log/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/soc/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/soc/esp32 -I/Users/arthur/esp/v5.4.1/esp-idf/components/soc/esp32/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/soc/esp32/register -I/Users/arthur/esp/v5.4.1/esp-idf/components/hal/platform_port/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/hal/esp32/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/hal/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_rom/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_rom/esp32/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_rom/esp32/include/esp32 -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_rom/esp32 -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_common/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_system/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_system/port/soc -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_system/port/include/private -I/Users/arthur/esp/v5.4.1/esp-idf/components/xtensa/esp32/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/xtensa/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/xtensa/deprecated_include -I/Users/arthur/esp/v5.4.1/esp-idf/components/lwip/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/lwip/include/apps -I/Users/arthur/esp/v5.4.1/esp-idf/components/lwip/include/apps/sntp -I/Users/arthur/esp/v5.4.1/esp-idf/components/lwip/lwip/src/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/lwip/port/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/lwip/port/freertos/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/lwip/port/esp32xx/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/lwip/port/esp32xx/include/arch -I/Users/arthur/esp/v5.4.1/esp-idf/components/lwip/port/esp32xx/include/sys -I/Users/arthur/esp/v5.4.1/esp-idf/components/mbedtls/port/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/mbedtls/mbedtls/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/mbedtls/mbedtls/library -I/Users/arthur/esp/v5.4.1/esp-idf/components/mbedtls/esp_crt_bundle/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/mbedtls/mbedtls/3rdparty/everest/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m -I/Users/arthur/esp/v5.4.1/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m/p256-m -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_timer/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_wifi/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_wifi/include/local -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_wifi/wifi_apps/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_wifi/wifi_apps/nan_app/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_event/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_phy/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_phy/esp32/include -I/Users/arthur/esp/v5.4.1/esp-idf/components/esp_netif/include -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=/Users/arthur/development/projects/fse/esp-32/low-power=. -fmacro-prefix-map=/Users/arthur/esp/v5.4.1/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -Wno-strict-aliasing -Wno-write-strings -Werror -Wno-format -MD -MT esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj -MF esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj.d -o esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj -c /Users/arthur/esp/v5.4.1/esp-idf/components/wpa_supplicant/port/eloop.c
+/var/folders/_d/2nzjt40j4317t9xks0rnnvb40000gn/T//ccguiFJi.s: Assembler messages:
+/var/folders/_d/2nzjt40j4317t9xks0rnnvb40000gn/T//ccguiFJi.s:1600: Fatal error: can't write 4 bytes to section .literal.timeout_exists of esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj: 'No space left on device'
+/var/folders/_d/2nzjt40j4317t9xks0rnnvb40000gn/T//ccguiFJi.s:1600: Fatal error: esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj: No such file or directory
+[66/997] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/pmksa_cache_auth.c.obj
+[67/997] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth_ie.c.obj
+[68/997] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/comeback_token.c.obj
+[69/997] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_11.c.obj
+[70/997] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/dragonfly.c.obj
+[71/997] Building C object esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj
+[72/997] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/wpa_common.c.obj
+[73/997] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth.c.obj
+[74/997] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae.c.obj
+ninja: build stopped: subcommand failed.
