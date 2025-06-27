@@ -1,0 +1,2 @@
+source /Users/arthur/development/projects/fse/esp-32/mqtt-example/build/gdbinit/symbols
+source /Users/arthur/development/projects/fse/esp-32/mqtt-example/build/gdbinit/connect
