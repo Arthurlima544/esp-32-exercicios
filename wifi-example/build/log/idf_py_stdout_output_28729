@@ -1,0 +1,130 @@
+ticore bootloader
+[0;32mI (33) boot: chip revision: v3.0[0m
+[0;32mI (36) boot��J��ѹesp32: SPI Flash Size : 2MB[0m
+[0;32mI (47) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (54) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  ets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jun 27 2025 13:03:24[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.0[0m
+[0;32mI (36) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (40) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (47) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (54) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (80) boot: End of partition table[0m
+[0;32mI (83) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1d768h (120680) map[0m
+[0;32mI (132) esp_image: segment 1: paddr=0002d790 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (132) esp_image: segment 2: paddr=0002d7b4 vaddr=3ffb0000 size=02864h ( 10340) load[0m
+[0;32mI (139) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=9c644h (640580) map[0m
+[0;32mI (362) esp_image: segment 4: paddr=000cc66c vaddr=3ffb2864 size=01650h (  5712) load[0m
+[0;32mI (364) esp_image: segment 5: paddr=000cdcc4 vaddr=40080000 size=17798h ( 96152) load[0m
+[0;32mI (414) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (414) boot: Disabling RNG early entropy source...[0m
+[0;32mI (425) cpu_start: Multicore app[0m
+[0;32mI (433) cpu_start: Pro cpu start user code[0m
+[0;32mI (433) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (433) app_init: Application information:[0m
+[0;32mI (433) app_init: Project name:     wifi-example[0m
+[0;32mI (438) app_init: App version:      32d6a25[0m
+[0;32mI (442) app_init: Compile time:     Jun 27 2025 13:51:15[0m
+[0;32mI (447) app_init: ELF file SHA256:  a116284b5...[0m
+[0;32mI (451) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (455) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (459) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (463) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (467) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (473) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (478) heap_init: At 3FFB8740 len 000278C0 (158 KiB): DRAM[0m
+[0;32mI (484) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (489) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (494) heap_init: At 40097798 len 00008868 (34 KiB): IRAM[0m
+[0;32mI (501) spi_flash: detected chip: generic[0m
+[0;32mI (503) spi_flash: flash io: dio[0m
+[0;33mW (506) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (520) main_task: Started on CPU0[0m
+[0;32mI (530) main_task: Calling app_main()[0m
+[0;32mI (560) wifi:wifi driver task: 3ffc0714, prio:23, stack:6656, core=0[0m
+[0;32mI (570) wifi:wifi firmware version: 79fa3f41ba[0m
+[0;32mI (570) wifi:wifi certification version: v7.0[0m
+[0;32mI (570) wifi:config NVS flash: enabled[0m
+[0;32mI (570) wifi:config nano formatting: disabled[0m
+[0;32mI (570) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (580) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (580) wifi:Init management short buffer num: 32[0m
+[0;32mI (590) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (590) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (600) wifi:Init static rx buffer num: 10[0m
+[0;32mI (600) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (600) wifi_init: rx ba win: 6[0m
+[0;32mI (610) wifi_init: accept mbox: 6[0m
+[0;32mI (610) wifi_init: tcpip mbox: 32[0m
+[0;32mI (610) wifi_init: udp mbox: 6[0m
+[0;32mI (620) wifi_init: tcp mbox: 6[0m
+[0;32mI (620) wifi_init: tcp tx win: 5760[0m
+[0;32mI (620) wifi_init: tcp rx win: 5760[0m
+[0;32mI (620) wifi_init: tcp mss: 1440[0m
+[0;32mI (630) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (630) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;33mW (640) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (640) phy_init: phy_version 4860,6b7a6e5,Feb  6 2025,14:47:07[0m
+[0;32mI (730) wifi:mode : sta (c0:49:ef:f9:00:84)[0m
+[0;32mI (730) wifi:enable tsf[0m
+[0;32mI (730) wifi: wifi_init_sta finished.[0m
+[0;32mI (740) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (740) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (750) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (750) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (760) wifi:<ba-add>idx:0 (ifx:0, 10:72:23:27:5b:51), tid:0, ssn:0, winSize:64[0m
+[0;32mI (770) wifi:connected with Familia Lima, aid = 5, channel 11, BW20, bssid = 10:72:23:27:5b:51[0m
+[0;32mI (770) wifi:security: WPA2-PSK, phy: bgn, rssi: -52[0m
+[0;32mI (780) wifi:pm start, type: 1[0m
+
+[0;32mI (780) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (810) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1800) esp_netif_handlers: sta ip: 192.168.25.93, mask: 255.255.255.0, gw: 192.168.25.1[0m
+[0;32mI (1800) wifi: Endereço IP recebido:192.168.25.93[0m
+[0;32mI (1800) wifi: connected to ap SSID:Familia Lima password:AaEeMixuSunny6869#[0m
+[0;32mI (1800) main_task: Returned from app_main()[0m
+[0;32mI (1810) Main Task: Realiza HTTP Request[0m
+[0;32mI (2480) HTTP: HTTP_EVENT_ON_CONNECTED[0m
+[0;32mI (2490) HTTP: HTTP_EVENT_HEADER_SENT[0m
+[0;32mI (3180) HTTP: HTTP_EVENT_ON_HEADER[0m
+[0;32mI (3180) HTTP: HTTP_EVENT_ON_HEADER[0m
+[0;32mI (3180) HTTP: HTTP_EVENT_ON_HEADER[0m
+[0;32mI (3180) HTTP: HTTP_EVENT_ON_HEADER[0m
+[0;32mI (3180) HTTP: HTTP_EVENT_ON_HEADER[0m
+[0;32mI (3180) HTTP: HTTP_EVENT_ON_HEADER[0m
+[0;32mI (3180) HTTP: HTTP_EVENT_ON_HEADER[0m
+[0;32mI (3190) HTTP: HTTP_EVENT_ON_HEADER[0m
+[0;32mI (3190) HTTP: HTTP_EVENT_ON_HEADER[0m
+[0;32mI (3190) HTTP: HTTP_EVENT_ON_HEADER[0m
+[0;32mI (3200) HTTP: HTTP_EVENT_ON_HEADER[0m
+[0;32mI (3210) HTTP: HTTP_EVENT_ON_DATA, len=512[0m
+{"data":[{"uid":35,"uf":"SP","state":"São Paulo","cases":6650301,"deaths":180978,"suspects":5334,"refuses":596,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":31,"uf":"MG","state":"Minas Gerais","cases":4209719,"deaths":65740,"suspects":925,"refuses":104,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":43,"uf":"RS","state":"Rio Grande do Sul","cases":3051755,"deaths":42428,"suspects":416,"refuses":330,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":41,"uf":"PR","state":"Paraná","cases":2949869,"deaths":46450,"suI (3250) HTTP: HTTP_EVENT_ON_DATA, len=512
+spects":400,"refuses":119,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":33,"uf":"RJ","state":"Rio de Janeiro","cases":2822569,"deaths":77367,"suspects":1254,"refuses":148,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":42,"uf":"SC","state":"Santa Catarina","cases":2028954,"deaths":22859,"suspects":346,"refuses":47,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":52,"uf":"GO","state":"Goiás","cases":1949272,"deaths":28311,"suspects":353,"refuses":55,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":29,"uf":"BA","staI (3300) HTTP: HTTP_EVENT_ON_DATA, len=512
+te":"Bahia","cases":1805388,"deaths":31696,"suspects":573,"refuses":36,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":23,"uf":"CE","state":"Ceará","cases":1470946,"deaths":28211,"suspects":493,"refuses":89,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":32,"uf":"ES","state":"Espírito Santo","cases":1339090,"deaths":15107,"suspects":71,"refuses":21,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":26,"uf":"PE","state":"Pernambuco","cases":1191503,"deaths":23012,"suspects":89,"refuses":23,"datetime":"2023-08-11T17I (3340) HTTP: HTTP_EVENT_ON_DATA, len=512
+:33:38.421Z"},{"uid":53,"uf":"DF","state":"Distrito Federal","cases":911135,"deaths":11871,"suspects":327,"refuses":107,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":51,"uf":"MT","state":"Mato Grosso","cases":886763,"deaths":15139,"suspects":45,"refuses":8,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":15,"uf":"PA","state":"Pará","cases":884181,"deaths":19146,"suspects":43,"refuses":23,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":25,"uf":"PB","state":"Paraíba","cases":712789,"deaths":10575,"suspects":85,"I (3390) HTTP: HTTP_EVENT_ON_DATA, len=310
+refuses":11,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":13,"uf":"AM","state":"Amazonas","cases":637301,"deaths":14481,"suspects":18,"refuses":26,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":50,"uf":"MS","state":"Mato Grosso do Sul","cases":615459,"deaths":11085,"suspects":93,"refuses":26,"datetime":"2023-0I (3420) HTTP: HTTP_EVENT_ON_DATA, len=512
+8-11T17:33:38.421Z"},{"uid":24,"uf":"RN","state":"Rio Grande do Norte","cases":592076,"deaths":8993,"suspects":108,"refuses":22,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":21,"uf":"MA","state":"Maranhão","cases":496960,"deaths":11078,"suspects":125,"refuses":13,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":11,"uf":"RO","state":"Rondônia","cases":487941,"deaths":7466,"suspects":61,"refuses":2,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":22,"uf":"PI","state":"Piauí","cases":433438,"deaths":8393,"suspectI (3470) HTTP: HTTP_EVENT_ON_DATA, len=512
+s":12,"refuses":2,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":17,"uf":"TO","state":"Tocantins","cases":371606,"deaths":4245,"suspects":13,"refuses":0,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":28,"uf":"SE","state":"Sergipe","cases":363112,"deaths":6535,"suspects":15,"refuses":11,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":27,"uf":"AL","state":"Alagoas","cases":340853,"deaths":7300,"suspects":43,"refuses":22,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":16,"uf":"AP","state":"Amapá","cases":186293,"deI (3520) HTTP: HTTP_EVENT_ON_DATA, len=337
+aths":2169,"suspects":15,"refuses":0,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":14,"uf":"RR","state":"Roraima","cases":185825,"deaths":2199,"suspects":9,"refuses":0,"datetime":"2023-08-11T17:33:38.421Z"},{"uid":12,"uf":"AC","state":"Acre","cases":163959,"deaths":2063,"suspects":12,"refuses":0,"datetime":"2023-08-11T17:33:38.421Z"}]}I (3550) HTTP: HTTP_EVENT_ON_FINISH
+[0;32mI (3560) HTTP: Status = 200, content_length = 3719[0m
+[0;32mI (3560) HTTP: HTTP_EVENT_DISCONNECTED[0m
